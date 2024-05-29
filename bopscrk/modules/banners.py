@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# https://github.com/r3nt0n/bopscrk
+# https://github.com/azanet/bopscrk_MOD/
 # bopscrk - banner and help functions module
 
 from time import sleep
@@ -22,6 +22,8 @@ def banner(name, version, author="Azanet_MOD"):
     name_rand_case = case_transforms(name)
     name_rand_case = name_rand_case[randint((len(name_rand_case) - 3), (len(name_rand_case) - 1))]
     version = version[:3]
+    print(' MOD by Azanet ');sleep(interval)
+    print('')
     print('  ,----------------------------------------------------,   ,------------,');sleep(interval)
     print('  | [][][][][]  [][][][][]  [][][][]  [][__]  [][][][] |   |    v{}{}{}    |'.format(color.BLUE, version, color.END));sleep(interval)
     print('  |                                                    |   |------------|');sleep(interval)
@@ -39,7 +41,6 @@ def help_banner():
     print(u'  | in your input. In "others" field (interactive mode), you can write  |');sleep(interval)
     print(u'  | several words comma-separated (e.g.: 2C,Flipper).                   |');sleep(interval)
     print(u'  |                                                                     |');sleep(interval)
-    print(u'  | MOD by Azanet                                                       |');sleep(interval)
     print(u'  |                              For advanced usage and documentation:  |');sleep(interval)
     print(u'  |                                  {}https://github.com//r3nt0n/bopscrk{}  |'.format(color.ORANGE,color.END));sleep(interval)
     print(u'  +---------------------------------------------------------------------+\n');sleep(interval)
