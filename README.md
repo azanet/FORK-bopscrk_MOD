@@ -2,7 +2,7 @@
 ## Proyecto del Autor Original
  
 <!-- PROJECT SHIELDS -->
-[![Repositorio del AUTOR ORIGINAL]([https://repology.org/badge/version-for-repo/blackarch/bopscrk.svg)](https://repology.org/project/bopscrk/versions](https://github.com/r3nt0n/bopscrk))
+[![[https://github.com/r3nt0n/bopscrk](https://github.com/r3nt0n/bopscrk)]]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -16,7 +16,7 @@
   <p align="center">
     Generate smart and powerful wordlists for targeted attacks
     <br />
-    <a href="#usage"><strong>Explore the docs »</strong></a>
+    <p align="center"><img src="https://github.com/r3nt0n/bopscrk/blob/master/img/bopscrk-2.4.5.gif" /></p>  
     <br />
     <br />
   </p>
