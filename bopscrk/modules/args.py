@@ -111,8 +111,40 @@ class Arguments:
         else:
             self.artists = self.artists.split(',')
 
-        others = input('  {}[?]{} Some other relevant words (comma-separated) >>> '.format(color.BLUE, color.END))
-
+        
+        ##!!!--> Modificacion para aceptar FICHERO con PALABRAS SEPARADAS POR COMA <------
+        ##others = input('  {}[?]{} Some other relevant words (comma-separated) >>> '.format(color.BLUE, color.END))
+        ##-------------------------------------------------------------------------------
+        file_path = input('  {}[?]{} Introduce RUTA DEL FICHERO con OTRAS palabras RELEVANTES (separadas por comas) >>> '.format(color.BLUE, color.END))
+        
+        # Eliminar comillas simples o dobles alrededor de la ruta, si existen
+        file_path = file_path.strip().strip('\'"')
+        
+        # Leer el contenido del fichero y almacenarlo en la variable others_file
+        try:
+            with open(file_path, 'r', encoding='utf-8') as file:
+                others_file = file.read().strip()
+        except FileNotFoundError:
+            print('  {}[!]{} Error: El fichero no existe o la ruta es incorrecta.'.format(color.BLUE, color.END))
+            others_file = ''
+        except Exception as e:
+            print('  {}[!]{} Error al leer el fichero: {}'.format(color.BLUE, color.END, e))
+            others_file = ''
+        
+        # Solicitar palabras adicionales al usuario
+        others_word = input('  {}[?]{} Introduce OTRAS palabras RELEVANTES (separadas por comas) >>> '.format(color.BLUE, color.END)).strip()
+        
+        # Combinar las palabras del fichero y las palabras adicionales
+        if others_file and others_word:
+            others = others_file + ',' + others_word
+        elif others_file:
+            others = others_file
+        else:
+            others = others_word
+        
+        print('  {}[?]{} Palabras combinadas >>> {}'.format(color.BLUE, color.END, others))
+        
+        ##!!! --> FIN de MODIFICACION <------------------------
         leet = input('  {}[?]{} Do yo want to make leet transforms? [y/n] >>> '.format(color.BLUE, color.END))
         case = input('  {}[?]{} Do yo want to make case transforms? [y/n] >>> '.format(color.BLUE, color.END))
 
