@@ -48,7 +48,7 @@ bopscrk -i
 <br />
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## Uso
 ```
 
   -h, --help         show this help message and exit
