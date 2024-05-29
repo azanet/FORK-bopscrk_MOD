@@ -29,7 +29,7 @@ El proyecto original se ha modificado para solicitar también la ruta de un arch
 *Clonar repositorio e instalar:*
 
 ```
-git clone --recurse-submodules https://github.com/azanet/FORK-bopscrk_MOD
+git clone --recurse-submodules https://github.com/azanet/bopscrk_MOD
 cd bopscrk
 pip install -r requirements.txt
 ```
