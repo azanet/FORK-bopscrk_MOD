@@ -27,12 +27,12 @@
 
 # Azanet MOD
 <!-- GETTING STARTED -->
-El proyecto original se ha modificado para aceptar una ruta de un archivo que contenga un listado de palabras separadas por comas
+El proyecto original se ha modificado para solicitar también la ruta de un archivo que contenga un listado de palabras separadas por comas.
 <br />
 
-## Getting started
+## Instalación
 
-*clone the repo from Github:*
+*Clonar repositorio e instalar:*
 
 ```
 git clone --recurse-submodules https://github.com/azanet/FORK-bopscrk_MOD
@@ -41,13 +41,11 @@ pip install -r requirements.txt
 ```
 
 
-### Run interactive mode
+### Iniciar el 'Modo Interactivo'
 ```
 bopscrk -i
 ```
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
+<br />
 
 <!-- USAGE EXAMPLES -->
 ## Usage
