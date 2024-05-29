@@ -27,6 +27,9 @@
 
 # Azanet MOD
 <!-- GETTING STARTED -->
+El proyecto original se ha modificado para aceptar una ruta de un archivo que contenga un listado de palabras separadas por comas
+<br />
+
 ## Getting started
 
 *clone the repo from Github:*
