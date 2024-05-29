@@ -1,20 +1,10 @@
-<div id="top"></div>
-<!-- 
-This documentation was written using Best-README-Template by othneildrew
-https://github.com/othneildrew/
-https://github.com/othneildrew/Best-README-Template/edit/master/README.md 
-Thanks dude :)
--->
 
 
-
+## Ver README del Autor Original
+ 
 <!-- PROJECT SHIELDS -->
-[![BlackArch package](https://repology.org/badge/version-for-repo/blackarch/bopscrk.svg)](https://repology.org/project/bopscrk/versions)
-[![Rawsec's CyberSecurity Inventory](https://inventory.raw.pm/img/badges/Rawsec-inventoried-FF5050_flat.svg)](https://inventory.raw.pm/)
-[![Packaging status](https://repology.org/badge/tiny-repos/bopscrk.svg)](https://repology.org/project/bopscrk/versions)
-![[GPL-3.0 License](https://github.com/r3nt0n)](https://img.shields.io/badge/license-GPL%203.0-brightgreen.svg)
-![[Python 3](https://github.com/r3nt0n)](http://img.shields.io/badge/python-3-blue.svg)
-![[Version 2.4.5](https://github.com/r3nt0n)](http://img.shields.io/badge/version-2.4.5-orange.svg)
+[![Repositorio ORIGINAL]([https://repology.org/badge/version-for-repo/blackarch/bopscrk.svg)](https://repology.org/project/bopscrk/versions](https://github.com/r3nt0n/bopscrk))
+
 
 
 
