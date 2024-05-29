@@ -1,11 +1,33 @@
 
+## Proyecto del Autor Original
+ 
+<!-- PROJECT SHIELDS -->
+[![Repositorio del AUTOR ORIGINAL]([https://repology.org/badge/version-for-repo/blackarch/bopscrk.svg)](https://repology.org/project/bopscrk/versions](https://github.com/r3nt0n/bopscrk))
+
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/r3nt0n/bopscrk">
+    <img src="https://github.com/r3nt0n/bopscrk/blob/master/img/logo_raster.svg" alt="Logo" width="80" height="80">
+  </a>
+
+  <h3 align="center">bopscrk</h3>
+
+  <p align="center">
+    Generate smart and powerful wordlists for targeted attacks
+    <br />
+    <a href="#usage"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+  </p>
+</div>
+<br />
+<br />
 
 
-
+# Azanet MOD
 <!-- GETTING STARTED -->
 ## Getting started
-
-
 
 *clone the repo from Github:*
 
@@ -46,35 +68,11 @@ bopscrk -i
 <br />
 <br />
 
-## Ver README del Autor Original
- 
-<!-- PROJECT SHIELDS -->
-[![Repositorio del AUTOR ORIGINAL]([https://repology.org/badge/version-for-repo/blackarch/bopscrk.svg)](https://repology.org/project/bopscrk/versions](https://github.com/r3nt0n/bopscrk))
 
 
 
 
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/r3nt0n/bopscrk">
-    <img src="https://github.com/r3nt0n/bopscrk/blob/master/img/logo_raster.svg" alt="Logo" width="80" height="80">
-  </a>
 
-  <h3 align="center">bopscrk</h3>
 
-  <p align="center">
-    Generate smart and powerful wordlists for targeted attacks
-    <br />
-    <a href="#usage"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="#about-the-project">View Demo</a>
-    ·
-    <a href="https://github.com/r3nt0n/bopscrk">Report Bug</a>
-    ·
-    <a href="https://github.com/r3nt0n/bopscrk">Request Feature</a>
-  </p>
-</div>
 
 
