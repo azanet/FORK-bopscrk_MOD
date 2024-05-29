@@ -121,18 +121,12 @@ Thanks dude :)
 <!-- GETTING STARTED -->
 ## Getting started
 
-### Installation
+
+
+*clone the repo from Github:*
 
 ```
-pip install bopscrk
-```
-
-
-
-*Alternatively, if you want to clone the repo from Github instead of install it from Pypi:*
-
-```
-git clone --recurse-submodules https://github.com/r3nt0n/bopscrk
+git clone --recurse-submodules https://github.com/azanet/FORK-bopscrk_MOD
 cd bopscrk
 pip install -r requirements.txt
 ```
