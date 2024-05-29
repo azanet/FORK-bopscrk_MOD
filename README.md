@@ -2,7 +2,7 @@
 ## Proyecto del Autor Original
  
 <!-- PROJECT SHIELDS -->
-[!https://github.com/r3nt0n/bopscrk](https://github.com/r3nt0n/bopscrk)
+[https://github.com/r3nt0n/bopscrk](https://github.com/r3nt0n/bopscrk)
 
 <!-- PROJECT LOGO -->
 <br />
