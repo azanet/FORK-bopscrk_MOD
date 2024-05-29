@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# https://github.com/r3nt0n/bopscrk
+# https://github.com/azanet/bopscrk_MOD
 # bopscrk - auxiliar functions module
 
 import os, datetime
